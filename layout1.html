@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style type="Text/css">
+        /* Select every HTML element on this page */
+        /* Rest of your CSS styles... */
+*/*select every html-element in this page*/
+{
+    margin-top:3px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family:arial;
+}
+#header-div
+{
+    width:100%;
+    min-height:100px;
+    background-color:darkslategray;
+    line-height:80px;
+    text-align:center;
+}
+#nav-div
+{
+    width:100%;
+    min-height:30px;
+    background-color:rgb(65, 64, 64);
+    text-align:right;
+    line-height:30px;
+}
+.nav-div ul{
+    list-style-type:none;
+    background-color:rgb(85, 83, 80);
+    padding:0px;
+    margin:0px;
+}
+#main-div
+{
+    width:100%;
+    margin-bottom:10px;
+    display:flex;
+}
+#blockarea-div
+{
+    width:75%;
+    min-height:400px;
+    background-color:lavender;
+    float:left;
+    line-height:60px;
+    text-align:center;
+}
+#sidebar-div
+{
+    width:25%;
+    min-height:400px;
+    background-color:darkgoldenrod;
+    float:right;
+    line-height:100px;
+    text-align:center;
+}
+.clearfix::after
+{
+    content:"";
+    display:block;
+    clear:both;
+}
+#footer-div
+{
+    width:100%;
+    min-height:160px;
+    background-color:darkolivegreen;
+    line-height:30px;
+    text-align:center;
+}
+.footer-div img{
+    width:100%;
+    height:100%;
+}
+#wrapper-div
+{
+    width:95%;
+    margin:auto;
+}
+    </style>
+</head>
+<body>
+    <div id="wrapper-div">
+    <div id="header-div">
+        <h1 style="color:wheat">Digihub</h1>
+    </div>
+    <div id="nav-div">
+        <select>
+                <option value=" "></option>
+                <option value="leads">Leads</option>
+                <option value="trends">Trends</option>
+                <ul>
+                    <li>Form</li>
+                    <li>Frames</li>
+                </ul>
+        </select>
+    </div>
+    <div id="main-div" class="clearfix">
+        <div id="blockarea-div">
+            <section><h1>SEO</h1></section>
+            <h3>SEO Strategies</h3>
+            <article>
+                <h4>How to Create an Effective SEO Strategy</h4>
+                <br>
+                In this post, you’re going to learn exactly how to create and implement an effective SEO strategy, step by step.
+                <br>
+                <h5>Backlinko – Organic traffic – September 2021</h5><br>
+                So if you’re looking to get higher Google rankings, this guide is for you.
+                <br>
+                <h3>What Is an SEO Strategy?</h3><br>
+                An SEO strategy is a plan to create, optimize, and promote content to improve its visibility in search engine results, attracting more organic traffic to a website. It involves a variety of techniques, such as keyword research, on-page optimization, technical SEO, and link building.
+                
+                In other words: an SEO strategy is the process that you follow when you want to get more organic traffic.
+                
+                With that, here are the steps to create an SEO strategy in 2024:
+                <br>
+                Step #1: Create a List of Keywords<br>
+                Step #2: Analyze Google’s First Page<br>
+                Step #3: Identify Your Competitors<br>
+                Step #4: Create Something Different or Better<br>
+                Step #5: Add a Hook<br>
+                Step #6: Optimize For On-Page SEO<br>
+                Step #7: Optimize For Search Intent<br>
+                Step #8: Focus on Content Design<br>
+                Step #9: Build Links to Your Page<br>
+                Step #10: Improve and Update Your Content<br>
+ <h1>Step #1: Create a List of Keywords</h1><br>
+                Keyword research is usually the first step of any legit SEO strategy.<br>
+                
+                And one of the best ways to find keywords that your target customers search for?<br>
+                
+                Google Suggest to
+                
+                Start typing a keyword into Google’s search field, and it will populate a list of suggestions:<br>
+                
+                Google search suggestions
+                These usually make great keywords for SEO because they come straight from Google.
+                
+                (Which means you know that people are actually searching for them.)
+                
+                Plus, longer keywords (known as “long tail keywords”) tend to be less competitive than “short tail” terms.<br>
+                
+                Long tail keywords
+                So even though long tails have relatively low search volume levels, they’re much easier to rank for.
+                
+                I recommend typing a few different keywords into Google until you have a list of about 10 keywords.
+                
+                If you want to check out the search volume and competition levels for those terms, you can use a keyword tool like Semrush or Ubersuggest.
+                <br>
+                SEMrush and Ubersuggest<br>
+                If you want to dive deeper into keyword research, you can check out this video.
+                
+                
+                Once you have 10 keywords jotted down, you’re ready for step #2.
+                <br>
+                <h1>Step #2: Analyze Google’s First Page</h1><br>
+                OK, so you found a handful of keywords.
+                
+                Now it’s time to see who already ranks for those keywords.
+                
+                To do that, just type one of the keywords that you found into Google.
+                <br>
+                Google search – Paleo desserts<br>
+                Scan the top 10 results:
+                
+                <br>
+                And jot down any patterns that you notice.
+                <br>
+                For example, the SERPs for “SEO Tools” is PACKED with lists of tools:
+                <br>
+                SEO tools – List posts in SERP<br>
+                So if you wanted to cover that topic on your site, you’d want to note that the first page results are made up mostly of list posts.
+                
+                And you’d probably want to publish a list post on your blog.
+                <br>
+               <h1> Step #3: Identify Your Competitors</h1>
+                My favorite tool for SEO competitor analysis is Semrush. Their tool makes the process super easy and can save you a lot of time.
+                
+                First, click on “Domain Overview” and type in your URL:
+                
+                Enter your domain for an overview
+                Then scroll down to the bottom, and you’ll find a section called “Main Organic Competitors”
+                <br>
+                Competitor Analysis 2<br>
+                These competitors are websites that are ranking for similar keywords and targeting similar audiences as you are.
+                
+                If you click on the “View all…” button, you’ll be able to review all your competitors as well as more insightful info.
+                
+                You can look at how many common keywords you share with these domains, and the amount of traffic these sites are pulling in:
+                <br>
+                Common keywords and traffic generated<br>
+                The “Common Keywords” section is useful as it shows you the total number of keywords you share with each site.
+                
+                If you see sites with a high number of common keywords, then you can consider them your competitors.
+                
+                At the end of this step, you should have identified at least 4-5 main organic competitors.
+                <br>
+                <h1>Step #4: Create Something Different or Better</h1><br>
+                Now it’s time to create some super high-quality content.
+                
+                When it comes to SEO content, you’ve got two options:
+                <Br>
+                Option #1: You can create something different.
+                <br>
+                Option #2: You can create something better.
+                <br>
+                Sometimes you want to create something bigger and better than what’s out there.
+                
+                (aka The Skyscraper Technique.)
+                
+                But sometimes you’re better off with content that’s completely different.
+                <br>
+                Why?
+                <br>
+                Because it helps your content stand out.
+                <br>
+                For example:
+                
+                A while back I noticed that most content about “SEO tools” only listed 10-20 tools.
+                
+                And I knew that publishing another list of 20 tools wouldn’t work.
+                
+                So I decided to create a list of 177 SEO tools.
+                
+                Backlinko – SEO tools post
+                That post now ranks in the top 3 for the keyword “SEO Tools”:
+                
+                Google SERP – SEO tools
+                <br>
+                <h1>Step #5: Add a Hook</h1>
+                <br>
+                If you want to improve your search engine rankings in 2024, you need to get backlinks.
+                
+                (And lots of them.)
+                
+                In fact, according to a study by Stone Temple Consulting that was published on the Moz blog, links are still strongly correlated with first page Google rankings.
+                
+                Quadratic mean spearman correlation
+                Which means they’re still a key Google ranking factor.
+                <br>
+                The question is: how do you do it?
+                <br>
+                Well, you need to figure out why people link to specific pieces of content in your industry.
+                
+                (Also known as “The Hook”.)
+                
+                Then, include that “Hook” in your content.
+                
+                Let’s look at a real-life example:
+                
+                A while ago I noticed more and more bloggers writing about voice search.
+                
+                Bloggers writing about voice search
+                I noticed something else too:
+                <br>
+                When people wrote about voice search, they linked to content that featured stats and data:
+                
+                Voice search writing linked to content featuring stats and data
+                So I decided to do a voice search study that was packed with stats:
+                
+                Backlinko – Voice search SEO study
+                To date, this single post has racked up 5.6K backlinks:
+                
+                Voice search SEO study – Backlinks
+                And 90%+ of these backlinks cite a specific stat from my post:
+                <br>
+                Backlinks cite specific stats from post
+                That said:
+                
+                Data is just one type of “Hook” that you can use to build links to your content.
+                
+                Another Hook that’s working well right now is Ultimate Guides.
+                
+                When you publish an ultimate guide, your guide itself is The Hook.
+                <br>
+                I’ll explain with an example…
+                <br>
+                A few years back I published Link Building: The Definitive Guide.
+                
+                Backlinko – Link building guide
+                It was (and still is) the most complete guide to link building out there.
+                
+                Every now and again a blogger will mention “link building” in a post.
+                
+                But they don’t have room to cover the entire topic.
+                
+                So they link to my guide as a way for their readers to learn more:
+                
+                Bloggers link out to my guide
+                Very cool.
+                <br>
+                <h1>Step #6: Optimize For On-Page SEO</h1>
+                <br>
+                This step is all about keyword-optimizing your content for SEO.
+                
+                There’s a lot more to on-page SEO than I could cover in a single post.
+                
+                So if you want to learn more about optimizing your content for SEO, this video can help.
+                
+                
+                That said, here are three core on-page SEO techniques that I recommend focusing on in 2024.
+                <br>
+                Internal Linking
+                <br>
+                Yup, internal linking still works.
+                
+                But you have to do it right.
+                
+                Specifically, you want to link from high-authority web pages to pages that need more authority.
+                <br>
+                High authority pages
+                <br>
+                For example, few years ago I published Google Search Console: The Definitive Guide.
+                
+                Backlinko – Google Search Console
+                So I found a page on my site with a ton of authority…
+                
+                Backlinko – Google ranking factors
+                …and linked from that page to my new guide.
+                
+                "Google Ranking Factors" post – Link to guide
+                Simple.
+                <br>
+                Short, Keyword-Rich URLs
+                <br>
+                Our analysis of 11.8 million Google search results found something that surprised a lot of people:
+                
+                When it comes to search engine optimization, short URLs generally outperform long URLs.
+                Short URLs tend to outrank long URLs
+                That’s why I make my URLs either just my keyword…
+                <br>
+                SEO Checklist – URL
+                … Or my target keyword plus one more word:<br>
+                
+                Backlinks Guide – URL
+                Either way works.
+                <br>
+                Semantic SEO
+                <br>
+                Finally, I optimize my content for Semantic SEO.
+                <br>
+                In other words:
+                <br>
+                I find words that are related to my target keyword.
+                
+                Then, I use those terms in my content.
+                
+                To do this yourself, type your target keyword into Google Images.
+                
+                Enter keyword into Google Images
+                And Google will give you words and phrases they consider closely related to that topic:
+                <br>
+                Google Images – Related terms<br>
+                Then, type the same keyword into a normal Google search. And scroll down to the “Searches related to…” section.
+                <br>
+                SEO audit – Searches related to<br>
+                Finally, sprinkle any of the terms that you find into your content:
+                <br>
+                And you’re set.
+                <br>
+                <h1>Step #7: Optimize For Search Intent</h1><br>
+                In other words: The Skyscraper Technique 2.0.
+                
+                I’ll show you how this works with a quick example.
+                
+                A few years ago I wrote a post about getting more traffic to your site.
+                <br>
+                Increase Website Traffic post – Older
+                It did OK.
+                But it never cracked the top 5 for my target keyword (“increase website traffic”).
+                <br>
+                And when I analyzed Google’s first page, I realized why:
+                <br>
+                My page didn’t satisfy the search intent for that keyword.
+                
+                I’ll explain…
+                
+                Most of the content ranking for “increase website traffic” listed bite-sized traffic tips.
+                
+                "Increase Website Traffic" – Existing content
+                But my post gave them a high-level process.
+                
+                Backlinko – Increase website traffic post – High-level process
+                This wasn’t the user experience search engine visitors wanted. So I rewrote my content to match this keyword’s Search Intent.
+                <br>
+                Specifically, I turned my process into a list post:
+                <br>
+                Increase Website traffic is now a list post
+                <br>
+                And now that my content matched Search Intent, it ranked in the top 3 for my target keyword:
+                <br>
+                "increase website traffic" SERPs
+                Which led to a 70.43% boost in search engine traffic compared to the old version of the post:
+                <br>
+                Increase Website Traffic – Organic traffic boost
+                That said:<br>
+                
+                You can (and should) publish content with Search Intent in mind right out of the gate.
+                
+                In fact, that’s what I did with this post: The Ultimate SEO Audit.
+                <br>
+                Backlinko – SEO site audit
+                I saw that most of the content ranking for “SEO Audit” listed out non-technical steps.
+                <br>
+                SEO Audit – Existing content – Non-technical steps
+                <br>
+                So I included simple strategies that anyone could use:
+                
+                SEO site audit – Post steps
+                And this Search Intent optimization helped my post crack the first page of Google within a month.
+                <br>
+                <h1>Step #8: Focus On Content Design</h1><br>
+                The design might be the most underrated part of content marketing.
+                
+                You can have the best content ever written.
+                
+                But if it looks like this…
+                <br>
+                <h3>Bad website</h3>
+                …It’s usually not going to get much traction.
+                For example,<br>
+                Backlinko – Local SEO guide<br>
+                These guides are designed and coded 100% from scratch using WordPress.
+                
+                (Which makes them expensive to make.)
+                <br>
+                That said:
+                <br>
+                The great content design doesn’t have to break the bank.
+                
+                In fact, here are 4 types of visual content that are super easy to pull off.
+                <br>
+                Graphs and Charts
+                <br>
+                These work so well that I try to include at least one chart in every post.
+                
+                Include at least one chart in every post
+                <br>
+                Why?
+                <br>
+                Because they make data easy to understand.
+                
+                For example, take this stat from my mobile SEO guide.
+                <br>
+                Stat as text<br>
+                I don’t know about you, but I have a hard time picturing 27.8 billion anything.
+                
+                So I had our designer create a nice chart.
+                <br>
+                Stat as graphic
+                <br>
+                As a bonus, people will sometimes use your chart in a blog post… and link back to you:
+                <br>
+                Graphic used by site with link
+                <br>
+                Screenshots and Pictures
+                <br>
+                You might have noticed that I use lots of screenshots in every post.
+                
+                In fact, this single post has 78 screenshots:
+                <br>
+                Backlinko – SEO Checklist
+                <br>
+                To be clear:
+                <br>
+                I don’t use screenshots just for the sake of using screenshots.
+                
+                I only use them if it helps someone implement a specific step.
+                
+                For example, these screenshots make the 2 steps from this guide much easier to follow:
+                <br>
+                Easy to follow steps using screenshots
+                <br>
+                That said:
+                <br>
+                Screenshots only make sense when you describe something technical.
+                <br>
+                What if you’re in a non-technical niche… like fitness?
+                <br>
+                Well, pictures serve the same purpose.
+                
+                For example, my friend Steve Kamb at Nerd Fitness uses pictures to show you how to do exercises the right way:
+                <br>
+                Picture used to demonstrate an exercise
+                <br>
+                Blog Post Banners
+                <br>
+                Unlike graphs and screenshots, blog post banners serve no practical purpose.
+                <br>
+                Here at Backlinko, we use a banner at the top of each post:
+                <br>
+                Backlinko – Link building tools
+                <br>
+                Graphics and Visualizations
+                <br>
+                Graphics and visualizations are kind of like charts.
+                
+                But instead of visualizing data, they visualize concepts.
+                
+                For example, in this post I explain how all 4 versions of your site should redirect to the same URL:
+               <br> 
+                Visualization redirect example
+                <br>
+                This concept isn’t rocket science.
+                
+                But it’s hard to picture this idea in your mind.
+                
+                So our designer made a simple visual that makes this concept easy to understand.
+                <br>
+                Redirect visualization
+                <br>
+                <h1>Step #9: Build Links to Your Page</h1>
+                <br>
+                Now it’s time to actively build links to your content.
+                
+                Specifically, we’re going to tap into 3 link building strategies that are working really well right now.
+                <br>
+                Broken Link Building
+                <br>
+                Here’s where you find a broken link on someone’s site…
+                
+                …and offer your content as a replacement.
+                
+                For example, this is an outreach email that I sent to a blogger in the marketing niche:
+                <br>
+                Brian outreach email – BlueGlass
+                (Note how specific I am. I don’t say “Please consider linking to me in a blog post”. I have a specific place on a specific page where my link makes sense.)
+                <br>
+                And because I helped the person out before asking for anything, they were happy to add my link:
+                <br>
+                Outreach email reply – BlueGlass
+                <br>
+                Competitor Analysis
+                <br>
+                This strategy is old school.
+                
+                But it still works.
+                
+                First, find a site that’s ranking for a keyword you want to rank for.
+                
+                For example, I’m trying to rank for the keyword “SEO Audit”.
+                
+                So I grab this result from the first page…
+                <br>
+                Google SERP – Ahrefs SEO audit post<br>
+                …and look at their backlinks.
+                <br>
+                Ahrefs – SEO audit post – Backlinks<br>
+                I can see that this page has links from 407 domains:
+                <br>
+                Ahrefs – SEO audit post – Referring domains<br>
+                So I should be able to get at least a handful of the same links they have.
+                
+                To do that, I go one by one through their backlinks.
+                <br>
+                Go through backlinks – Ahrefs<br>
+                And find pages where my link would add value.
+                
+                For example, this post mentions my competitor’s content by name:
+                <br>
+                Post mentioning Ahrefs' content by name<br.
+                There’s no reason to link to my post there. So I moved on to the next opportunity on the list.
+                
+                And I came across this post:
+                <br>
+                Link to Ahrefs – Part of a resource list
+                A list that would be even better and more complete with a link to my SEO audit post.
+                <br>
+                Evangelist Method
+                <br>
+                This strategy is less about links… and more about getting your content in front of the right people.
+                
+                (Specifically: people that run blogs in your niche.)
+                </article>
+        </div>
+        <div id="sidebar-div">
+            <aside style="color:white"><iframe width="310" height="800" src="https://www.youtube.com/embed/OYRkIGaP80M?si=TYzl39mVYMByCMOO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><u>You can check out this video for more detail</u>.</aside>
+        </div>
+    </div>
+    <div id="footer-div">
+    </div>
+    </div>
+</body>
+</html>
